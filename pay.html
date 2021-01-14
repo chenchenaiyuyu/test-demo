@@ -1,0 +1,47 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0 ,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>结算页面</title>
+	<link rel="shortcut icon" href="img/foodie.ico" />
+
+	<link href="AmazeUI-2.4.2/assets/css/amazeui.css" rel="stylesheet" type="text/css" />
+	<link href="basic/css/demo.css" rel="stylesheet" type="text/css" />
+	<link href="css/cartstyle.css" rel="stylesheet" type="text/css" />
+	<link href="css/jsstyle.css" rel="stylesheet" type="text/css" />
+	<link href="css/lee.css" rel="stylesheet" type="text/css" />
+
+	<script type="text/javascript" src="js/address.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vue@2.6.9/dist/vue.js"></script>
+	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+	<div id="pay">
+		<!--顶部导航条 -->
+		<div class="am-container header">
+			<ul class="message-l">
+				<div class="topMessage">
+					<div class="menu-hd" v-show="!userIsLogin">
+						<a href="login.html" target="_top" class="h">亲，请登录</a>
+						<a href="register.html" target="_top">免费注册</a>
+					</div>
+					<div class="menu-hd" v-show="userIsLogin">
+						<span style="color: #d2364c">欢迎</span>
+					</div>
+				</div>
+			</ul>
+			
+		</div>
+
+	
+
+		
+		
+</body>
+
+</html>
